@@ -1,0 +1,35 @@
+S1:BAŞLA
+
+S2:GİRİŞ: "baslangic degerini giriniz", a
+
+S3:ATAMA: sayac = 0
+
+S4:HESAPLA: b = a + 0 (b değerini a'ya eşitle)
+
+S5:HESAPLA: c = a + b
+
+S6:ÇIKTI: a değerini ekrana yaz.
+
+S7:ÇIKTI: b değerini ekrana yaz.
+
+S8:ÇIKTI: c değerini ekrana yaz.
+
+S9:DÖNGÜ BAŞI (KOŞUL): Eğer sayac < 7 ise:
+
+	S9.1:EVET (Koşul Sağlanıyorsa):
+
+S10:ATAMA: a = b + 0 (a'yı b'nin eski değeri yap)
+
+S11:ATAMA: b = c + 0 (b'yi c'nin eski değeri yap)
+
+S12:HESAPLA: c = a + b (yeni c değerini oluştur)
+
+S13:ÇIKTI: c değerini ekrana yaz.
+
+S14:GÜNCELLE: sayac = sayac + 1
+
+S15:DÖN: Adım 9'daki kontrol noktasına geri git.
+
+S16:HAYIR (Koşul Sağlanmıyorsa):Bir sonraki adıma geç.
+
+S17:DUR
